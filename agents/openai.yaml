@@ -1,0 +1,13 @@
+interface:
+  display_name: AI 产品经理写作
+  short_description: 把零散观点和真实材料写成有判断、有证据的 AI 产品文章
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  default_prompt: 使用 $human-writing，把我的产品体验和研究材料写成有个人判断的 AI 产品文章，先讨论观点、确认大纲，再分章节完成并终审。
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
